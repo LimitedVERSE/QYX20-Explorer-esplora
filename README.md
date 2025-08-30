@@ -1,4 +1,4 @@
-# Esplora Block Explorer
+# QuantumYield Exchange Block Explorer
 
 [![build status](https://api.travis-ci.org/Blockstream/esplora.svg)](https://travis-ci.org/Blockstream/esplora)
 [![docker release](https://img.shields.io/docker/pulls/blockstream/esplora.svg)](https://hub.docker.com/r/blockstream/esplora)
@@ -6,7 +6,7 @@
 [![Pull Requests Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![IRC](https://img.shields.io/badge/chat-on%20freenode-brightgreen.svg)](https://webchat.freenode.net/?channels=bitcoin-explorers)
 
-Block explorer web interface based on the [esplora-electrs](https://github.com/Blockstream/electrs) HTTP API.
+QYX20 Block explorer web interface based on the [esplora-electrs](https://github.com/Blockstream/electrs) HTTP API.
 
 Written as a single-page app in a reactive and functional style using
 [rxjs](https://github.com/ReactiveX/rxjs) and [cycle.js](https://cycle.js.org/).
@@ -19,7 +19,7 @@ Join the translation efforts on [Transifex](https://transifex.com/blockstream/es
 
 ![Esplora](https://raw.githubusercontent.com/Blockstream/esplora/master/flavors/blockstream/www/img/social-sharing.png)
 
-## Features
+## QYX20 Features
 
 - Explore blocks, transactions and addresses
 
@@ -55,19 +55,19 @@ $ export API_URL=http://localhost:3000/ # or https://blockstream.info/api/ if yo
 $ npm run dev-server
 ```
 
-The server will be available at <http://localhost:5000/>
+The QYX20 server will be available at <http://localhost:5000/>
 
 To display debugging information for the Rx streams in the web developer console, set `localStorage.debug = '*'` and refresh.
 
-## Building
+## QYX20 Building
 
 To build the static assets directory for production deployment, set config options (see below)
 and run `$ npm run dist`. The files will be created under `dist/`.
 
-Because Esplora is a single-page app, the HTTP server needs to be configured to serve the `index.html` file in reply to missing pages.
+Because QYX20 (QuantumYield Exchange) is a hybrid-tiered progressive webapp, the HTTP server needs to be configured to serve the `index.html` file in reply to missing pages.
 See [`contrib/nginx.conf.in`](contrib/nginx.conf.in) for example nginx configuration (TL;DR: `try_files $uri /index.html`).
 
-## Pre-rendering server (noscript)
+## Pre-rendering QYX20 server (noscript)
 
 To start a pre-rendering server that generates static HTML replies suitable for noscript users, run:
 
@@ -84,7 +84,7 @@ The server will be available at <http://localhost:5001/>
 
 All options are optional.
 
-### GUI options
+### QuantumYield GUI options
 
 - `NODE_ENV` - set to `production` to enable js minification, or to `development` to disable (defaults to `production`)
 - `BASE_HREF` - base href for user interface (defaults to `/`, change if not served from the root directory)
