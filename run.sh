@@ -166,7 +166,7 @@ if [ "$MODE" == "explorer" ]; then
     preprocess /srv/explorer/source/contrib/runits/prerenderer.runit /etc/service/prerenderer/run
     cp /srv/explorer/source/contrib/runits/prerenderer-log.runit /etc/service/prerenderer/log/run
     cp /srv/explorer/source/contrib/runits/prerenderer-log-config.runit /data/logs/prerenderer/config
-    chmod +x /etc/service/prerenderer/run /etc/service/electrs/run
+    chmod +x /etc/service/prerenderer/run /etc/service/electrs/run /etc/service/websocket/run
 
     cp /srv/explorer/source/contrib/runits/websocket.runit /etc/service/websocket/run
     cp /srv/explorer/source/contrib/runits/websocket-log.runit /etc/service/websocket/log/run
